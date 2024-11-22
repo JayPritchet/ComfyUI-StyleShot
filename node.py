@@ -174,6 +174,8 @@ class StyleShotApply:
     ):
         print("Loading pipeline...")
         base_model_path = "Comfy-Org/stable-diffusion-v1-5-archive"
+        base_model_path = "stable-diffusion-v1-5/stable-diffusion-v1-5"
+        
         transformer_block_path = "laion/CLIP-ViT-H-14-laion2B-s32B-b79K"
         styleshot_model_path = "Gaojunyao/StyleShot"
         controlnet_model_path = "lllyasviel/control_v11f1p_sd15_depth"
